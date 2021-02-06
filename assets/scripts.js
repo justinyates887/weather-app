@@ -96,10 +96,6 @@ function getCurrentForecast () {
     // variable to hold response.list
     let results = response.list;
     console.log(results)
-    
-    //declare start date to check against
-    // startDate = 20
-    //have end date, endDate = startDate + 5
 
     for (let i = 0; i < results.length; i++) {
 
